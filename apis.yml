@@ -1,8 +1,26 @@
 aid: detect
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/detect.png
 name: Detect
-description: 'Detect is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Detect Technologies is an IIT Madras-incubated industrial AI company
+  founded in 2016 and headquartered in Chennai, India. Its 360-degree Workplace Intelligence
+  Platform, T-Pulse, combines proprietary IoT sensors, drones, robotics and machine
+  vision with industrial AI to deliver automated inspections, predictive maintenance,
+  gas and oil leak detection, structural health monitoring, and real-time workplace
+  safety, operations and security monitoring for enterprises such as Shell, Vedanta,
+  Adani Group and Hindustan Zinc. Backed by Accel and Elevation Capital. The company
+  does not publish a public API or developer program; this profile captures its public
+  identity and domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/detect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cloud Saas
+- Industrial AI
+- IoT
+- Computer Vision
+- Workplace Safety
+- Predictive Maintenance
+- Drones
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://detecttechnologies.com/
+- type: About
+  url: https://detecttechnologies.com/about-us/
+- type: Blog
+  url: https://detecttechnologies.com/resources/
+- type: Support
+  url: https://detecttechnologies.com/contact-us/
+- type: PrivacyPolicy
+  url: https://detecttechnologies.com/privacy-policy/
+- type: TermsOfService
+  url: https://detecttechnologies.com/detect-cms/terms/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/detect-technologies
+- type: DomainSecurity
+  url: security/detect-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
