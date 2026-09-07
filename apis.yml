@@ -72,6 +72,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: GitHubOrganization
+  url: https://github.com/detecttechnologies
+- type: LLMsTxt
+  url: llms/detect-llms.txt
 - type: Website
   url: https://detecttechnologies.com/
 - type: About
