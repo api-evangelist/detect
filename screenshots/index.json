@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "detect",
+    "captured_at": "2026-10-11T184741",
+    "source_url": "https://detecttechnologies.com/",
+    "source_type": "Website",
+    "file": "detect-2026-10-11T184741.png",
+    "bytes": 93410,
+    "capture": "playwright-local"
+  }
+]
